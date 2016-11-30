@@ -33,9 +33,10 @@ class WorkForm():
     def calculate2(self):
         square = self.ui.spinBox.value()
         category=self.ui.comboBox_2.currentIndex()
-        print  self.engine.byDistance(category,square)
+        min=self.engine.byDistance(category,square).x
+        max=self.engine.byDistance(category,square).y
         self.ui.stackedWidget.setCurrentIndex(2)
-        self.ui.textBrowser.setText(u"Понадобится " + str(self.engine.number) + u" огнетушителей")
+        self.ui.textBrowser.setText(u"Понадобится в интервале " + str(min)+"-"+str(max) + u" огнетушителей")
         pass
 
     def setSignals(self):
