@@ -36,7 +36,11 @@ class WorkForm():
         min=self.engine.byDistance(category,square).x
         max=self.engine.byDistance(category,square).y
         self.ui.stackedWidget.setCurrentIndex(2)
-        self.ui.textBrowser.setText(u"Понадобится в интервале " + str(min)+"-"+str(max) + u" огнетушителей")
+        self.ui.textBrowser.setText(u"Понадобится " + str(min)+ u" огнетушителей")
+        pass
+
+    def go_to_info(self):
+        self.ui.stackedWidget.setCurrentIndex(4)
         pass
 
     def setSignals(self):
@@ -46,6 +50,7 @@ class WorkForm():
         self.ui.pushButton.clicked.connect(self.chooseWay)
         self.ui.pushButton_2.clicked.connect(self.calculate2)
         self.ui.pushButton_3.clicked.connect(self.calculate1)
+        self.ui.pushButton_4.clicked.connect(self.go_to_info)
         pass
 
 

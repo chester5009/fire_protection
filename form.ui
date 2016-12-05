@@ -297,6 +297,19 @@
       </rect>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>460</y>
+       <width>99</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Справка</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="page_2">
     <widget class="QLabel" name="label">
@@ -351,6 +364,43 @@
      </property>
      <property name="text">
       <string>далее</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>381</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;Два способа расчёта по размещению:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d;&quot; style=&quot; margin-top:0px; margin-bottom:8px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14px;&quot;&gt;расстояние от возможного очага возгорания до огнетушителя;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d;&quot; style=&quot; margin-top:0px; margin-bottom:24px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14px;&quot;&gt;количество огнетушащего состава на площадь помещения.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;Нормы оснащения помещения ручными огнетушителями рекомендуют устанавливать их таким образом, чтобы расстояние между устройством и возможным очагом возгорания для общественных зданий не превышало 20 м, для помещений категории А, Б, В по пожарной опасности — 30 м, для помещений категорий Г — 40 м, помещение категории Д — 70 м. Таким образом можно найти наилучшие места установки огнетушителей.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;В дополнение к этому способу существует ещё один неофициальный метод расчёта: 1 кг огнетушащего вещества на 25 квадратных метров защищаемой площади. Если очаг предполагается небольшой, то в помещении лучше установить ручной (переносной) огнетушитель. Для предотвращения значительных возгораний лучше использовать передвижные устройства.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;http://protivpozhara.ru/likvidacija-vozgoranija/dejstvie/raschet-kolichestva-ognetushitelej-na-ploshhad-pomeshhenija&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>50</y>
+       <width>68</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Справка</string>
      </property>
     </widget>
    </widget>

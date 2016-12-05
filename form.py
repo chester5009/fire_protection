@@ -133,6 +133,9 @@ class Ui_Form(object):
         self.textBrowser = QtGui.QTextBrowser(self.page_4)
         self.textBrowser.setGeometry(QtCore.QRect(120, 210, 311, 221))
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
+        self.pushButton_4 = QtGui.QPushButton(self.page_4)
+        self.pushButton_4.setGeometry(QtCore.QRect(330, 460, 99, 27))
+        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
         self.stackedWidget.addWidget(self.page_4)
         self.page_2 = QtGui.QWidget()
         self.page_2.setObjectName(_fromUtf8("page_2"))
@@ -154,6 +157,15 @@ class Ui_Form(object):
         self.pushButton.setGeometry(QtCore.QRect(230, 400, 99, 27))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.stackedWidget.addWidget(self.page_2)
+        self.page_5 = QtGui.QWidget()
+        self.page_5.setObjectName(_fromUtf8("page_5"))
+        self.textBrowser_2 = QtGui.QTextBrowser(self.page_5)
+        self.textBrowser_2.setGeometry(QtCore.QRect(100, 100, 381, 501))
+        self.textBrowser_2.setObjectName(_fromUtf8("textBrowser_2"))
+        self.label_9 = QtGui.QLabel(self.page_5)
+        self.label_9.setGeometry(QtCore.QRect(260, 50, 68, 17))
+        self.label_9.setObjectName(_fromUtf8("label_9"))
+        self.stackedWidget.addWidget(self.page_5)
 
         self.retranslateUi(Form)
         self.stackedWidget.setCurrentIndex(0)
@@ -174,8 +186,20 @@ class Ui_Form(object):
         self.label_7.setText(_translate("Form", "Введите площать в м кв", None))
         self.label_8.setText(_translate("Form", "Введите объем огнетушителей (кг)", None))
         self.label_5.setText(_translate("Form", "Результат", None))
+        self.pushButton_4.setText(_translate("Form", "Справка", None))
         self.label.setText(_translate("Form", "Выберите способ расчёта", None))
         self.comboBox.setItemText(0, _translate("Form", "Расстояние от возможного очага возгорания до огнетушителя", None))
         self.comboBox.setItemText(1, _translate("Form", "Количество огнетушащего состава на площадь помещения", None))
         self.pushButton.setText(_translate("Form", "далее", None))
+        self.textBrowser_2.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">Два способа расчёта по размещению:</span></p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d;\" style=\" margin-top:0px; margin-bottom:8px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14px;\">расстояние от возможного очага возгорания до огнетушителя;</span></li>\n"
+"<li style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d;\" style=\" margin-top:0px; margin-bottom:24px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14px;\">количество огнетушащего состава на площадь помещения.</span></li></ul>\n"
+"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">Нормы оснащения помещения ручными огнетушителями рекомендуют устанавливать их таким образом, чтобы расстояние между устройством и возможным очагом возгорания для общественных зданий не превышало 20 м, для помещений категории А, Б, В по пожарной опасности — 30 м, для помещений категорий Г — 40 м, помещение категории Д — 70 м. Таким образом можно найти наилучшие места установки огнетушителей.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">В дополнение к этому способу существует ещё один неофициальный метод расчёта: 1 кг огнетушащего вещества на 25 квадратных метров защищаемой площади. Если очаг предполагается небольшой, то в помещении лучше установить ручной (переносной) огнетушитель. Для предотвращения значительных возгораний лучше использовать передвижные устройства.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">http://protivpozhara.ru/likvidacija-vozgoranija/dejstvie/raschet-kolichestva-ognetushitelej-na-ploshhad-pomeshhenija</span></p></body></html>", None))
+        self.label_9.setText(_translate("Form", "Справка", None))
 
