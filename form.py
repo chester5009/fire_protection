@@ -136,7 +136,22 @@ class Ui_Form(object):
         self.pushButton_4 = QtGui.QPushButton(self.page_4)
         self.pushButton_4.setGeometry(QtCore.QRect(330, 460, 99, 27))
         self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
+        self.pushButton_6 = QtGui.QPushButton(self.page_4)
+        self.pushButton_6.setGeometry(QtCore.QRect(210, 530, 99, 27))
+        self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
         self.stackedWidget.addWidget(self.page_4)
+        self.page_6 = QtGui.QWidget()
+        self.page_6.setObjectName(_fromUtf8("page_6"))
+        self.textBrowser_3 = QtGui.QTextBrowser(self.page_6)
+        self.textBrowser_3.setGeometry(QtCore.QRect(90, 100, 381, 501))
+        self.textBrowser_3.setObjectName(_fromUtf8("textBrowser_3"))
+        self.pushButton_7 = QtGui.QPushButton(self.page_6)
+        self.pushButton_7.setGeometry(QtCore.QRect(430, 30, 99, 27))
+        self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
+        self.label_10 = QtGui.QLabel(self.page_6)
+        self.label_10.setGeometry(QtCore.QRect(200, 50, 191, 17))
+        self.label_10.setObjectName(_fromUtf8("label_10"))
+        self.stackedWidget.addWidget(self.page_6)
         self.page_2 = QtGui.QWidget()
         self.page_2.setObjectName(_fromUtf8("page_2"))
         self.label = QtGui.QLabel(self.page_2)
@@ -153,6 +168,7 @@ class Ui_Form(object):
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
         self.comboBox.addItem(_fromUtf8(""))
         self.comboBox.addItem(_fromUtf8(""))
+        self.comboBox.addItem(_fromUtf8(""))
         self.pushButton = QtGui.QPushButton(self.page_2)
         self.pushButton.setGeometry(QtCore.QRect(230, 400, 99, 27))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
@@ -165,10 +181,13 @@ class Ui_Form(object):
         self.label_9 = QtGui.QLabel(self.page_5)
         self.label_9.setGeometry(QtCore.QRect(260, 50, 68, 17))
         self.label_9.setObjectName(_fromUtf8("label_9"))
+        self.pushButton_5 = QtGui.QPushButton(self.page_5)
+        self.pushButton_5.setGeometry(QtCore.QRect(440, 30, 99, 27))
+        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
         self.stackedWidget.addWidget(self.page_5)
 
         self.retranslateUi(Form)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(5)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
@@ -187,9 +206,23 @@ class Ui_Form(object):
         self.label_8.setText(_translate("Form", "Введите объем огнетушителей (кг)", None))
         self.label_5.setText(_translate("Form", "Результат", None))
         self.pushButton_4.setText(_translate("Form", "Справка", None))
+        self.pushButton_6.setText(_translate("Form", "На главную", None))
+        self.textBrowser_3.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Пропускная способность выходов. Под удельной пропускной способностью выходов подразумевают количество людей, проходящих через выход шириной в 1 м за 1 мин.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Наименьшее значение удельной пропускной способности, полученное опытным путем, при данной плотности именуется расчетной удельной пропускной способностью. Удельная пропускная способность выходов зависит от ширины выходов, плотностей людских потоков и отношения ширины людских потоков к ширине выхода.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Нормами установлена пропускная способность дверей шириной до 1,5 м, равная 50 чел./м-мин, а шириной более 1,5 м 60 чел./м-мин (для предельных плотностей).</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Размеры эвакуационных выходов. Кроме размеров эвакуационных путей и выходов, нормы регламентируют их конструктивно-планировочные решения, обеспечивающие организованное и безопасное движение людей.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Пожарная опасность производственных процессов в промышленных зданиях характеризуется физико-химическими свойствами веществ, образующихся в производстве. Производства категорий А и Б, в которых обращаются жидкости и газы, представляют особую опасность при пожарах в силу возможности быстрого распространения горения и задымления зданий, поэтому протяженность путей для них является наименьшей. В производствах категории В, где обращаются твердые горючие вещества, скорость распространения горения меньше, срок эвакуации может быть несколько увеличен, а следовательно, и протяженность путей эвакуации будет больше, чем для производства категорий А и В. В производствах категорий Г и Д, размещаемых в зданиях I и II степеней огнестойкости, протяженность путей эвакуации не ограничивается (для определения категории здания см. приложение А).</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Продолжение по ссылке  http://www.bestreferat.ru/referat-284124.html</span></p></body></html>", None))
+        self.pushButton_7.setText(_translate("Form", "На главную", None))
+        self.label_10.setText(_translate("Form", "Информация при пожаре", None))
         self.label.setText(_translate("Form", "Выберите способ расчёта", None))
         self.comboBox.setItemText(0, _translate("Form", "Расстояние от возможного очага возгорания до огнетушителя", None))
         self.comboBox.setItemText(1, _translate("Form", "Количество огнетушащего состава на площадь помещения", None))
+        self.comboBox.setItemText(2, _translate("Form", "Информация", None))
         self.pushButton.setText(_translate("Form", "далее", None))
         self.textBrowser_2.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -202,4 +235,5 @@ class Ui_Form(object):
 "<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">В дополнение к этому способу существует ещё один неофициальный метод расчёта: 1 кг огнетушащего вещества на 25 квадратных метров защищаемой площади. Если очаг предполагается небольшой, то в помещении лучше установить ручной (переносной) огнетушитель. Для предотвращения значительных возгораний лучше использовать передвижные устройства.</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">http://protivpozhara.ru/likvidacija-vozgoranija/dejstvie/raschet-kolichestva-ognetushitelej-na-ploshhad-pomeshhenija</span></p></body></html>", None))
         self.label_9.setText(_translate("Form", "Справка", None))
+        self.pushButton_5.setText(_translate("Form", "На главную", None))
 

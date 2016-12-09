@@ -22,7 +22,10 @@ class Engine():
 
     def bySquare(self,square,sizeOfOne):
         self.number=int(square/25.0/sizeOfOne)
-        return int(round((square/25.0/sizeOfOne)+0.45,0))
+        res=int(round((square/25.0/sizeOfOne)+0.45,0))
+        if(res==0):
+            res=1
+        return res
         pass
 
     def byDistance(self,category,square):
