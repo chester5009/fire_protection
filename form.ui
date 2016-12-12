@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>5</number>
+    <number>2</number>
    </property>
    <widget class="QWidget" name="page">
     <widget class="QLabel" name="label_2">
@@ -325,33 +325,11 @@
     </widget>
    </widget>
    <widget class="QWidget" name="page_6">
-    <widget class="QTextBrowser" name="textBrowser_3">
+    <widget class="QPushButton" name="pushButton_5">
      <property name="geometry">
       <rect>
-       <x>90</x>
-       <y>100</y>
-       <width>381</width>
-       <height>501</height>
-      </rect>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Пропускная способность выходов. Под удельной пропускной способностью выходов подразумевают количество людей, проходящих через выход шириной в 1 м за 1 мин.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Наименьшее значение удельной пропускной способности, полученное опытным путем, при данной плотности именуется расчетной удельной пропускной способностью. Удельная пропускная способность выходов зависит от ширины выходов, плотностей людских потоков и отношения ширины людских потоков к ширине выхода.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Нормами установлена пропускная способность дверей шириной до 1,5 м, равная 50 чел./м-мин, а шириной более 1,5 м 60 чел./м-мин (для предельных плотностей).&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Размеры эвакуационных выходов. Кроме размеров эвакуационных путей и выходов, нормы регламентируют их конструктивно-планировочные решения, обеспечивающие организованное и безопасное движение людей.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Пожарная опасность производственных процессов в промышленных зданиях характеризуется физико-химическими свойствами веществ, образующихся в производстве. Производства категорий А и Б, в которых обращаются жидкости и газы, представляют особую опасность при пожарах в силу возможности быстрого распространения горения и задымления зданий, поэтому протяженность путей для них является наименьшей. В производствах категории В, где обращаются твердые горючие вещества, скорость распространения горения меньше, срок эвакуации может быть несколько увеличен, а следовательно, и протяженность путей эвакуации будет больше, чем для производства категорий А и В. В производствах категорий Г и Д, размещаемых в зданиях I и II степеней огнестойкости, протяженность путей эвакуации не ограничивается (для определения категории здания см. приложение А).&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Продолжение по ссылке  http://www.bestreferat.ru/referat-284124.html&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_7">
-     <property name="geometry">
-      <rect>
-       <x>430</x>
-       <y>30</y>
+       <x>420</x>
+       <y>40</y>
        <width>99</width>
        <height>27</height>
       </rect>
@@ -360,17 +338,99 @@ p, li { white-space: pre-wrap; }
       <string>На главную</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_10">
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>290</y>
+       <width>99</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> Расчет</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spinBox_6">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>190</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>100000</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>50</y>
-       <width>191</width>
+       <y>130</y>
+       <width>161</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>Информация при пожаре</string>
+      <string>Количество выходов</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>430</y>
+       <width>381</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spinBox_7">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>61</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>190</y>
+       <width>161</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Количество человек</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>60</y>
+       <width>131</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Время эвакуации</string>
      </property>
     </widget>
    </widget>
@@ -417,7 +477,7 @@ p, li { white-space: pre-wrap; }
      </item>
      <item>
       <property name="text">
-       <string>Информация</string>
+       <string>Время эвакуации</string>
       </property>
      </item>
     </widget>
@@ -436,7 +496,33 @@ p, li { white-space: pre-wrap; }
     </widget>
    </widget>
    <widget class="QWidget" name="page_5">
-    <widget class="QTextBrowser" name="textBrowser_2">
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>50</y>
+       <width>191</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Информация при пожаре</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>30</y>
+       <width>99</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>На главную</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_3">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -450,38 +536,12 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;Два способа расчёта по размещению:&lt;/span&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d;&quot; style=&quot; margin-top:0px; margin-bottom:8px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14px;&quot;&gt;расстояние от возможного очага возгорания до огнетушителя;&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d;&quot; style=&quot; margin-top:0px; margin-bottom:24px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14px;&quot;&gt;количество огнетушащего состава на площадь помещения.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;Нормы оснащения помещения ручными огнетушителями рекомендуют устанавливать их таким образом, чтобы расстояние между устройством и возможным очагом возгорания для общественных зданий не превышало 20 м, для помещений категории А, Б, В по пожарной опасности — 30 м, для помещений категорий Г — 40 м, помещение категории Д — 70 м. Таким образом можно найти наилучшие места установки огнетушителей.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;В дополнение к этому способу существует ещё один неофициальный метод расчёта: 1 кг огнетушащего вещества на 25 квадратных метров защищаемой площади. Если очаг предполагается небольшой, то в помещении лучше установить ручной (переносной) огнетушитель. Для предотвращения значительных возгораний лучше использовать передвижные устройства.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Arial,sans-serif'; font-size:14px; color:#5d5d5d; background-color:#ffffff;&quot;&gt;http://protivpozhara.ru/likvidacija-vozgoranija/dejstvie/raschet-kolichestva-ognetushitelej-na-ploshhad-pomeshhenija&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>260</x>
-       <y>50</y>
-       <width>68</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Справка</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_5">
-     <property name="geometry">
-      <rect>
-       <x>440</x>
-       <y>30</y>
-       <width>99</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>На главную</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Пропускная способность выходов. Под удельной пропускной способностью выходов подразумевают количество людей, проходящих через выход шириной в 1 м за 1 мин.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Наименьшее значение удельной пропускной способности, полученное опытным путем, при данной плотности именуется расчетной удельной пропускной способностью. Удельная пропускная способность выходов зависит от ширины выходов, плотностей людских потоков и отношения ширины людских потоков к ширине выхода.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Нормами установлена пропускная способность дверей шириной до 1,5 м, равная 50 чел./м-мин, а шириной более 1,5 м 60 чел./м-мин (для предельных плотностей).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Размеры эвакуационных выходов. Кроме размеров эвакуационных путей и выходов, нормы регламентируют их конструктивно-планировочные решения, обеспечивающие организованное и безопасное движение людей.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Пожарная опасность производственных процессов в промышленных зданиях характеризуется физико-химическими свойствами веществ, образующихся в производстве. Производства категорий А и Б, в которых обращаются жидкости и газы, представляют особую опасность при пожарах в силу возможности быстрого распространения горения и задымления зданий, поэтому протяженность путей для них является наименьшей. В производствах категории В, где обращаются твердые горючие вещества, скорость распространения горения меньше, срок эвакуации может быть несколько увеличен, а следовательно, и протяженность путей эвакуации будет больше, чем для производства категорий А и В. В производствах категорий Г и Д, размещаемых в зданиях I и II степеней огнестойкости, протяженность путей эвакуации не ограничивается (для определения категории здания см. приложение А).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; background-color:#ffffff;&quot;&gt;Продолжение по ссылке  http://www.bestreferat.ru/referat-284124.html&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </widget>

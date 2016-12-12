@@ -142,15 +142,32 @@ class Ui_Form(object):
         self.stackedWidget.addWidget(self.page_4)
         self.page_6 = QtGui.QWidget()
         self.page_6.setObjectName(_fromUtf8("page_6"))
-        self.textBrowser_3 = QtGui.QTextBrowser(self.page_6)
-        self.textBrowser_3.setGeometry(QtCore.QRect(90, 100, 381, 501))
-        self.textBrowser_3.setObjectName(_fromUtf8("textBrowser_3"))
-        self.pushButton_7 = QtGui.QPushButton(self.page_6)
-        self.pushButton_7.setGeometry(QtCore.QRect(430, 30, 99, 27))
-        self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
-        self.label_10 = QtGui.QLabel(self.page_6)
-        self.label_10.setGeometry(QtCore.QRect(200, 50, 191, 17))
-        self.label_10.setObjectName(_fromUtf8("label_10"))
+        self.pushButton_5 = QtGui.QPushButton(self.page_6)
+        self.pushButton_5.setGeometry(QtCore.QRect(420, 40, 99, 27))
+        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
+        self.pushButton_10 = QtGui.QPushButton(self.page_6)
+        self.pushButton_10.setGeometry(QtCore.QRect(220, 290, 99, 27))
+        self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
+        self.spinBox_6 = QtGui.QSpinBox(self.page_6)
+        self.spinBox_6.setGeometry(QtCore.QRect(70, 190, 101, 27))
+        self.spinBox_6.setMaximum(100000)
+        self.spinBox_6.setObjectName(_fromUtf8("spinBox_6"))
+        self.label_13 = QtGui.QLabel(self.page_6)
+        self.label_13.setGeometry(QtCore.QRect(200, 130, 161, 17))
+        self.label_13.setObjectName(_fromUtf8("label_13"))
+        self.textBrowser_4 = QtGui.QTextBrowser(self.page_6)
+        self.textBrowser_4.setGeometry(QtCore.QRect(80, 430, 381, 151))
+        self.textBrowser_4.setObjectName(_fromUtf8("textBrowser_4"))
+        self.spinBox_7 = QtGui.QSpinBox(self.page_6)
+        self.spinBox_7.setGeometry(QtCore.QRect(110, 130, 61, 27))
+        self.spinBox_7.setMaximum(1000)
+        self.spinBox_7.setObjectName(_fromUtf8("spinBox_7"))
+        self.label_14 = QtGui.QLabel(self.page_6)
+        self.label_14.setGeometry(QtCore.QRect(200, 190, 161, 17))
+        self.label_14.setObjectName(_fromUtf8("label_14"))
+        self.label_15 = QtGui.QLabel(self.page_6)
+        self.label_15.setGeometry(QtCore.QRect(200, 60, 131, 17))
+        self.label_15.setObjectName(_fromUtf8("label_15"))
         self.stackedWidget.addWidget(self.page_6)
         self.page_2 = QtGui.QWidget()
         self.page_2.setObjectName(_fromUtf8("page_2"))
@@ -175,19 +192,19 @@ class Ui_Form(object):
         self.stackedWidget.addWidget(self.page_2)
         self.page_5 = QtGui.QWidget()
         self.page_5.setObjectName(_fromUtf8("page_5"))
-        self.textBrowser_2 = QtGui.QTextBrowser(self.page_5)
-        self.textBrowser_2.setGeometry(QtCore.QRect(100, 100, 381, 501))
-        self.textBrowser_2.setObjectName(_fromUtf8("textBrowser_2"))
-        self.label_9 = QtGui.QLabel(self.page_5)
-        self.label_9.setGeometry(QtCore.QRect(260, 50, 68, 17))
-        self.label_9.setObjectName(_fromUtf8("label_9"))
-        self.pushButton_5 = QtGui.QPushButton(self.page_5)
-        self.pushButton_5.setGeometry(QtCore.QRect(440, 30, 99, 27))
-        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
+        self.label_10 = QtGui.QLabel(self.page_5)
+        self.label_10.setGeometry(QtCore.QRect(210, 50, 191, 17))
+        self.label_10.setObjectName(_fromUtf8("label_10"))
+        self.pushButton_7 = QtGui.QPushButton(self.page_5)
+        self.pushButton_7.setGeometry(QtCore.QRect(440, 30, 99, 27))
+        self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
+        self.textBrowser_3 = QtGui.QTextBrowser(self.page_5)
+        self.textBrowser_3.setGeometry(QtCore.QRect(100, 100, 381, 501))
+        self.textBrowser_3.setObjectName(_fromUtf8("textBrowser_3"))
         self.stackedWidget.addWidget(self.page_5)
 
         self.retranslateUi(Form)
-        self.stackedWidget.setCurrentIndex(5)
+        self.stackedWidget.setCurrentIndex(2)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
@@ -207,6 +224,23 @@ class Ui_Form(object):
         self.label_5.setText(_translate("Form", "Результат", None))
         self.pushButton_4.setText(_translate("Form", "Справка", None))
         self.pushButton_6.setText(_translate("Form", "На главную", None))
+        self.pushButton_5.setText(_translate("Form", "На главную", None))
+        self.pushButton_10.setText(_translate("Form", " Расчет", None))
+        self.label_13.setText(_translate("Form", "Количество выходов", None))
+        self.textBrowser_4.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><br /></p></body></html>", None))
+        self.label_14.setText(_translate("Form", "Количество человек", None))
+        self.label_15.setText(_translate("Form", "Время эвакуации", None))
+        self.label.setText(_translate("Form", "Выберите способ расчёта", None))
+        self.comboBox.setItemText(0, _translate("Form", "Расстояние от возможного очага возгорания до огнетушителя", None))
+        self.comboBox.setItemText(1, _translate("Form", "Количество огнетушащего состава на площадь помещения", None))
+        self.comboBox.setItemText(2, _translate("Form", "Время эвакуации", None))
+        self.pushButton.setText(_translate("Form", "далее", None))
+        self.label_10.setText(_translate("Form", "Информация при пожаре", None))
+        self.pushButton_7.setText(_translate("Form", "На главную", None))
         self.textBrowser_3.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -217,23 +251,4 @@ class Ui_Form(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Размеры эвакуационных выходов. Кроме размеров эвакуационных путей и выходов, нормы регламентируют их конструктивно-планировочные решения, обеспечивающие организованное и безопасное движение людей.</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Пожарная опасность производственных процессов в промышленных зданиях характеризуется физико-химическими свойствами веществ, образующихся в производстве. Производства категорий А и Б, в которых обращаются жидкости и газы, представляют особую опасность при пожарах в силу возможности быстрого распространения горения и задымления зданий, поэтому протяженность путей для них является наименьшей. В производствах категории В, где обращаются твердые горючие вещества, скорость распространения горения меньше, срок эвакуации может быть несколько увеличен, а следовательно, и протяженность путей эвакуации будет больше, чем для производства категорий А и В. В производствах категорий Г и Д, размещаемых в зданиях I и II степеней огнестойкости, протяженность путей эвакуации не ограничивается (для определения категории здания см. приложение А).</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" background-color:#ffffff;\">Продолжение по ссылке  http://www.bestreferat.ru/referat-284124.html</span></p></body></html>", None))
-        self.pushButton_7.setText(_translate("Form", "На главную", None))
-        self.label_10.setText(_translate("Form", "Информация при пожаре", None))
-        self.label.setText(_translate("Form", "Выберите способ расчёта", None))
-        self.comboBox.setItemText(0, _translate("Form", "Расстояние от возможного очага возгорания до огнетушителя", None))
-        self.comboBox.setItemText(1, _translate("Form", "Количество огнетушащего состава на площадь помещения", None))
-        self.comboBox.setItemText(2, _translate("Form", "Информация", None))
-        self.pushButton.setText(_translate("Form", "далее", None))
-        self.textBrowser_2.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">Два способа расчёта по размещению:</span></p>\n"
-"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d;\" style=\" margin-top:0px; margin-bottom:8px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14px;\">расстояние от возможного очага возгорания до огнетушителя;</span></li>\n"
-"<li style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d;\" style=\" margin-top:0px; margin-bottom:24px; margin-left:15px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14px;\">количество огнетушащего состава на площадь помещения.</span></li></ul>\n"
-"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">Нормы оснащения помещения ручными огнетушителями рекомендуют устанавливать их таким образом, чтобы расстояние между устройством и возможным очагом возгорания для общественных зданий не превышало 20 м, для помещений категории А, Б, В по пожарной опасности — 30 м, для помещений категорий Г — 40 м, помещение категории Д — 70 м. Таким образом можно найти наилучшие места установки огнетушителей.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">В дополнение к этому способу существует ещё один неофициальный метод расчёта: 1 кг огнетушащего вещества на 25 квадратных метров защищаемой площади. Если очаг предполагается небольшой, то в помещении лучше установить ручной (переносной) огнетушитель. Для предотвращения значительных возгораний лучше использовать передвижные устройства.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:24px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:\'Tahoma,Arial,sans-serif\'; font-size:14px; color:#5d5d5d; background-color:#ffffff;\">http://protivpozhara.ru/likvidacija-vozgoranija/dejstvie/raschet-kolichestva-ognetushitelej-na-ploshhad-pomeshhenija</span></p></body></html>", None))
-        self.label_9.setText(_translate("Form", "Справка", None))
-        self.pushButton_5.setText(_translate("Form", "На главную", None))
 

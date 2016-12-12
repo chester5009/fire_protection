@@ -40,6 +40,15 @@ class WorkForm():
         self.ui.textBrowser.setText(u"Понадобится " + str(min)+ u" огнетушителей")
         pass
 
+    def escape(self):
+        outputs=self.ui.spinBox_7.value()
+        people=self.ui.spinBox_6.value()
+        for_one_output=55 # 55 mans per minute
+        needs_min=people/(outputs*for_one_output)
+        if(needs_min<0.5):needs_min=1
+        self.ui.textBrowser_4.setText(u"Эвакуация будет длиться около "+ str(needs_min)+u" минут")
+        pass
+
     def go_to_info(self):
         self.ui.stackedWidget.setCurrentIndex(5)
         pass
@@ -59,6 +68,7 @@ class WorkForm():
         self.ui.pushButton_5.clicked.connect(self.go_to_main)
         self.ui.pushButton_6.clicked.connect(self.go_to_main)
         self.ui.pushButton_7.clicked.connect(self.go_to_main)
+        self.ui.pushButton_10.clicked.connect(self.escape)
         pass
 
 
