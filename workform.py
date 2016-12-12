@@ -20,6 +20,9 @@ class WorkForm():
 
         wayIndex=self.ui.comboBox.currentIndex()
         if(wayIndex==2): wayIndex=3
+        elif(wayIndex==3): wayIndex=6
+
+
         self.ui.stackedWidget.setCurrentIndex(wayIndex)
         pass
 
@@ -45,9 +48,30 @@ class WorkForm():
         people=self.ui.spinBox_6.value()
         for_one_output=55 # 55 mans per minute
         needs_min=people/(outputs*for_one_output)
-        if(needs_min<0.5):needs_min=1
+        if(needs_min<0.5):
+            needs_min=1
         self.ui.textBrowser_4.setText(u"Эвакуация будет длиться около "+ str(needs_min)+u" минут")
+
         pass
+
+    def gidranty(self):
+         low=(30,51,101,301,1001,1501)
+         up=(50,100,300,1000,1500,2000)
+         litres=(15,20,25,40,60,80,100)
+
+         grounds=self.ui.spinBox_4.value()
+         one_gidrant=self.ui.spinBox_5.value()
+
+         need_speed=0
+         for i in range(len(low)):
+             if (grounds>=low[i] and grounds<=up[i]): need_speed=litres[i]
+
+         need_gidrants=need_speed/one_gidrant
+         if need_gidrants<0.5 :need_gidrants=1
+
+         self.ui.textBrowser_5.setText(u"Понадобится "+str(need_gidrants)+u" гидрантов")
+
+         pass
 
     def go_to_info(self):
         self.ui.stackedWidget.setCurrentIndex(5)
@@ -68,6 +92,8 @@ class WorkForm():
         self.ui.pushButton_5.clicked.connect(self.go_to_main)
         self.ui.pushButton_6.clicked.connect(self.go_to_main)
         self.ui.pushButton_7.clicked.connect(self.go_to_main)
+        self.ui.pushButton_8.clicked.connect(self.go_to_main)
+        self.ui.pushButton_9.clicked.connect(self.gidranty)
         self.ui.pushButton_10.clicked.connect(self.escape)
         pass
 
