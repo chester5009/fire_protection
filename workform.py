@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import sys
 from PyQt4 import QtGui,QtCore
+
+from PyQt4.QtGui import QPalette, QPixmap,QBrush
+
 from form import Ui_Form
 from calculate import Engine
 
@@ -14,6 +17,13 @@ class WorkForm():
         self.ui.setupUi(self.MainWindow)
         self.ui.stackedWidget.setCurrentIndex(4)
         self.setSignals()
+
+        palette = QPalette()
+        palette.setBrush(QPalette.Background, QBrush (QPixmap("background.jpg")))
+
+        #self.MainWindow.setPalette(palette)
+        #self.ui.page_2.setStyleSheet("background-image: url("+"background.jpg"+"); background-repeat: no-repeat; background-position: center;")
+
         pass
 
     def chooseWay(self):
