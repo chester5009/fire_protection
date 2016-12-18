@@ -3,6 +3,7 @@ import sys
 from PyQt4 import QtGui,QtCore
 
 from PyQt4.QtGui import QPalette, QPixmap,QBrush
+from gevent.select import select
 
 from form import Ui_Form
 from calculate import Engine
@@ -91,6 +92,22 @@ class WorkForm():
         self.ui.stackedWidget.setCurrentIndex(4)
         pass
 
+    def aboutAuthor(self):
+        self.ui.textBrowser_2.setText(u"Об авторе")
+        pass
+
+    def show_discription(self,index):
+        text=[
+            u"Общественных здания , до огнетушителя не более  20 м",
+            u"Помещения с этой категорией (АБВ), до огнетушителя не более  30 м",
+            u"Помещения с этой категорией (Г) , до огнетушителя не более  20 м",
+            u"Помещения с этой категорией (Д) , до огнетушителя не более  20 м"
+        ]
+        self.ui.textBrowser_6.setText(text[index])
+        pass
+
+
+
     def setSignals(self):
         self.ui.spinBox.setMaximum(99999999)
         self.ui.spinBox_2.setMaximum(99999999)
@@ -105,6 +122,9 @@ class WorkForm():
         self.ui.pushButton_8.clicked.connect(self.go_to_main)
         self.ui.pushButton_9.clicked.connect(self.gidranty)
         self.ui.pushButton_10.clicked.connect(self.escape)
+        self.ui.pushButton_11.clicked.connect(self.aboutAuthor)
+
+        self.ui.comboBox_2.currentIndexChanged.connect(self.show_discription)
         pass
 
 

@@ -62,8 +62,8 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>200</x>
-       <y>190</y>
+       <x>50</x>
+       <y>200</y>
        <width>171</width>
        <height>17</height>
       </rect>
@@ -83,8 +83,8 @@
     <widget class="QComboBox" name="comboBox_2">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>240</y>
+       <x>30</x>
+       <y>250</y>
        <width>201</width>
        <height>27</height>
       </rect>
@@ -113,8 +113,8 @@
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>310</y>
+       <x>30</x>
+       <y>320</y>
        <width>211</width>
        <height>17</height>
       </rect>
@@ -134,8 +134,8 @@
     <widget class="QSpinBox" name="spinBox">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>340</y>
+       <x>30</x>
+       <y>350</y>
        <width>191</width>
        <height>27</height>
       </rect>
@@ -144,14 +144,24 @@
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>510</y>
+       <x>80</x>
+       <y>520</y>
        <width>99</width>
        <height>27</height>
       </rect>
      </property>
      <property name="text">
       <string>Рассчитать</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_6">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>200</y>
+       <width>291</width>
+       <height>341</height>
+      </rect>
      </property>
     </widget>
    </widget>
@@ -436,7 +446,7 @@ p, li { white-space: pre-wrap; }
    </widget>
    <widget class="QWidget" name="page_2">
     <property name="styleSheet">
-     <string notr="true">background-image: url(&quot;background.jpg&quot;)</string>
+     <string notr="true"/>
     </property>
     <widget class="QLabel" name="label">
      <property name="geometry">
@@ -917,7 +927,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>230</x>
-       <y>400</y>
+       <y>550</y>
        <width>99</width>
        <height>27</height>
       </rect>
@@ -929,6 +939,42 @@ color:rgb(156, 255, 241)
      </property>
      <property name="text">
       <string>далее</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>20</y>
+       <width>99</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 85, 29);</string>
+     </property>
+     <property name="text">
+      <string>Об авторе</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>280</y>
+       <width>371</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(35, 28, 255);</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </widget>
